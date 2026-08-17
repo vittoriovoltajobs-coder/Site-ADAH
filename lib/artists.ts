@@ -74,14 +74,11 @@ export const artists: Artist[] = [
     portrait: '/images/artist-1.JPG',
     preview:
       "Anita observe le monde lors de ses balades et récolte les plantes qui composeront ses collages végétaux, séchées avec soin puis assemblées en maisons esquissées au crayon.",
-    bio: [
-      "Installée à Hermance depuis plus de vingt ans, Marie Dupont consacre sa peinture aux paysages du bord du lac. Formée aux Beaux-Arts de Genève, elle travaille l'huile en couches successives pour restituer la vibration de la lumière.",
-      "Ses toiles, exposées régulièrement en Suisse romande, invitent à la contemplation d'une nature à la fois familière et réinventée.",
-    ],
+    bio: ["Anita observe le monde lors de ses balades et récolte les plantes qui composeront ses collages végétaux, séchées avec soin puis assemblées en maisons esquissées au crayon."],
     email: '',
     instagram: '#',
     works: [
-      { src: '/images/anita1.JPG', title: '' },
+      { src: '/images/anita4.jpeg', title: '' },
       { src: '/images/anita2.jpeg', title: '' },
       { src: '/images/anita3.jpeg', title: '' },
     ],
@@ -94,10 +91,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-2.jpg',
     preview:
       "Evelyne traduit la ferveur de ses voyages en Inde à travers des peintures à l'huile et aquarelles, réalisées d'après ses propres photographies.",
-    bio: [
-      "Sculpteur autodidacte, Jean Martin travaille la pierre calcaire et le bois flotté ramassé sur les rives du lac. Son geste cherche l'équilibre entre la force de la matière et la douceur des courbes.",
-      "Ses œuvres monumentales ont été présentées dans plusieurs jardins de sculptures de la région lémanique.",
-    ],
+    bio: ["Evelyne traduit la ferveur de ses voyages en Inde à travers des peintures à l'huile et aquarelles, réalisées d'après ses propres photographies."],
     email: '',
     works: [
       { src: '/images/evelyne1.jpg', title: '' },
@@ -116,10 +110,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-3.jpg',
     preview:
       "Artiste autodidacte, elle explore l'abstraction à la peinture acrylique, guidant ses toiles par l'expérimentation instinctive des couleurs et des matières.",
-    bio: [
-      "Claire Favre voue une passion à l'aquarelle depuis l'enfance. Elle explore les fleurs sauvages, les feuillages et les reflets de l'eau dans des compositions tout en transparence.",
-      "Elle anime également des stages d'initiation à l'aquarelle au sein de l'association.",
-    ],
+    bio: ["Artiste autodidacte, elle explore l'abstraction à la peinture acrylique, guidant ses toiles par l'expérimentation instinctive des couleurs et des matières."],
     email: '',
     instagram: '#',
     works: [
@@ -138,10 +129,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-4.jpg',
     preview:
       "Passionnée d'Art déco, elle façonne le verre en jouant avec ses textures, ses jeux d'ombre et de lumière, et ses infinies déclinaisons de transparences colorées.",
-    bio: [
-      "Pierre Rochat parcourt les rives du lac depuis quarante ans, à la recherche de la lumière rare. Ses tirages, en grand format, jouent sur les nuances de gris et de vert d'une nature apaisée.",
-      "Son travail a fait l'objet de plusieurs publications et expositions personnelles.",
-    ],
+    bio: ["Passionnée d'Art déco, elle façonne le verre en jouant avec ses textures, ses jeux d'ombre et de lumière, et ses infinies déclinaisons de transparences colorées."],
     email: '',
     works: [
         ],
@@ -154,10 +142,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-5.jpg',
     preview:
       "Isaline tisse le coton et le lin sur son métier pour créer des objets usuels au design abstrait, guidée par une démarche méditative et colorée",
-    bio: [
-      "Sophie Brunner tourne et modèle le grès dans son atelier d'Hermance. Ses émaux, développés à partir de cendres végétales, déclinent une palette de verts profonds et de crèmes mats.",
-      "Chaque pièce, unique, célèbre le geste artisanal et la beauté du quotidien.",
-    ],
+    bio: ["Isaline tisse le coton et le lin sur son métier pour créer des objets usuels au design abstrait, guidée par une démarche méditative et colorée"],
     email: '' ,
     instagram: '#',
     works: [
@@ -172,10 +157,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-6.jpg',
     preview:
       "Maya manie l'aquarelle entre portraits aux couleurs vibrantes d'inspiration fauviste et paysages fidèles aux nuances de la nature.",
-    bio: [
-      "Jeune peintre de la relève, Luc Moret travaille l'acrylique dans de grands formats abstraits. Son vocabulaire pictural s'inspire des textures de la nature et de la matière.",
-      "Il représente la nouvelle génération d'artistes de l'association.",
-    ],
+    bio: ["Maya manie l'aquarelle entre portraits aux couleurs vibrantes d'inspiration fauviste et paysages fidèles aux nuances de la nature."],
     email: '',
     works: [
       { src: '/images/maya1.jpg', title: '' },
@@ -196,10 +178,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-7a.jpg',
     preview:
       "De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création.",
-    bio: [
-      "Jeune peintre de la relève, Luc Moret travaille l'acrylique dans de grands formats abstraits. Son vocabulaire pictural s'inspire des textures de la nature et de la matière.",
-      "Il représente la nouvelle génération d'artistes de l'association.",
-    ],
+    bio: ["De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création."],
     email: '',
     works: [
       { src: '/images/miky1.jpg', title: '' },
@@ -214,10 +193,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-8.jpg',
     preview:
       "Nathalie Masset façonne le métal par soudure et rivetage pour créer des sculptures inspirées de la mythologie et des arts primitifs, enrichies de matériaux de récupération.",
-    bio: [
-      "Jeune peintre de la relève, Luc Moret travaille l'acrylique dans de grands formats abstraits. Son vocabulaire pictural s'inspire des textures de la nature et de la matière.",
-      "Il représente la nouvelle génération d'artistes de l'association.",
-    ],
+    bio: ["Nathalie Masset façonne le métal par soudure et rivetage pour créer des sculptures inspirées de la mythologie et des arts primitifs, enrichies de matériaux de récupération."],
     email: '',
     works: [
       { src: '/images/nathalie1.jpg', title: '' },
@@ -231,10 +207,7 @@ export const artists: Artist[] = [
     portrait: '/images/artist-9.jpg',
     preview:
       "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
-    bio: [
-      "Jeune peintre de la relève, Luc Moret travaille l'acrylique dans de grands formats abstraits. Son vocabulaire pictural s'inspire des textures de la nature et de la matière.",
-      "Il représente la nouvelle génération d'artistes de l'association.",
-    ],
+    bio: ["Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs."],
     email: '',
     works: [],
   },
@@ -246,15 +219,28 @@ export const artists: Artist[] = [
     portrait: '/images/artist-10.jpg',
     preview:
       "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
-    bio: [
-      "Jeune peintre de la relève, Luc Moret travaille l'acrylique dans de grands formats abstraits. Son vocabulaire pictural s'inspire des textures de la nature et de la matière.",
-      "Il représente la nouvelle génération d'artistes de l'association.",
-    ],
+    bio: ["Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs."],
     email: '',
     works: [
       { src: '/images/tina1.jpg', title: '' },
       { src: '/images/tina2.jpg', title: '' },
       { src: '/images/tina3.jpg', title: '' },
+    ],
+    exhibitions: ['Expo Édition 2026'],
+  },
+    {
+    id: 'adriana-hermann',
+    name: 'Adriana Hermann',
+    medium: 'Création de sac',
+    discipline: 'Création',
+    portrait: '/images/adriana2.jpg',
+    preview:"Genevoise d'origine, Adriana tisse son histoire à travers le crochet depuis son plus jeune âge. Avec une infinie délicatesse, elle transforme les matières pour créer des pièces uniques : vêtements stylés, sacs élégants, nappes raffinées et mandalas vibrants.",
+    bio: ["Genevoise d'origine, Adriana tisse son histoire à travers le crochet depuis son plus jeune âge. Avec une infinie délicatesse, elle transforme les matières pour créer des pièces uniques : vêtements stylés, sacs élégants, nappes raffinées et mandalas vibrants."],
+    email: '',
+    works: [
+      { src: '/images/adriana1.jpg', title: '' },
+      { src: '/images/adriana3.PNG', title: '' },
+      { src: '/images/adriana4.jpg', title: '' },
     ],
     exhibitions: ['Expo Édition 2026'],
   },

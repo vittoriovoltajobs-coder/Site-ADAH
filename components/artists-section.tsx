@@ -91,9 +91,11 @@ export function ArtistsSection() {
                 <h3 className="mt-2 font-serif text-2xl text-foreground">
                   {artist.name}
                 </h3>
+                {artist.preview && (
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
-                  {artist.preview}
-                </p>
+                    {artist.preview}
+                  </p>
+                )}
                 <button
                   type="button"
                   onClick={() => setSelected(artist)}
