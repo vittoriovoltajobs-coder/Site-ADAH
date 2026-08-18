@@ -244,4 +244,21 @@ export const artists: Artist[] = [
     ],
     exhibitions: ['Expo Édition 2026'],
   },
+    {
+    id: 'diana-hayek-barriviera',
+    name: 'Diana Hayek Barriviera',
+    medium: 'Peintre',
+    discipline: 'Peinture',
+    portrait: '/images/adriana2.jpg',
+    preview:"Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.",
+    bio: ["Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent."],
+    email: '',
+    works: [
+      { src: '/images/adriana1.jpg', title: '' },
+      { src: '/images/adriana3.PNG', title: '' },
+      { src: '/images/adriana4.jpg', title: '' },
+    ],
+    exhibitions: ['Expo Édition 2026'],
+  },
+  
 ]
