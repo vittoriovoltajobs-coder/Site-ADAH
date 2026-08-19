@@ -24,15 +24,14 @@
 // ============================================================
 
 export type Discipline =
+
+  | 'Collage'
+  | 'Création'
+  | 'Crochet'
   | 'Peinture'
   | 'Sculpture'
-  | 'Céramique'
-  | 'Collage'
-  | 'Vitraille'
-  | 'Photographie'
   | 'Tissage'
-  | 'Création'
- 
+  | 'Vitraille'
 
 export type Work = {
   src: string
@@ -55,26 +54,46 @@ export type Artist = {
 
 export const disciplines: Array<'Tous' | Discipline> = [  
   'Tous',
+  'Collage',
+  'Création',
+  'Crochet',
   'Peinture',
   'Sculpture',
-  'Céramique',
-  'Collage',
-  'Vitraille',
-  'Photographie',
   'Tissage',
-  'Création',
+  'Vitraille',
 ]
 
 export const artists: Artist[] = [
   {
+    id: 'adriana-hermann',
+    name: 'Adriana Hermann',
+    medium: 'Crochet',
+    discipline: 'Crochet',
+    portrait: '/images/adriana2.jpg',
+    preview:
+      "Genevoise d'origine, Adriana tisse son histoire à travers le crochet depuis son plus jeune âge. Avec une infinie délicatesse, elle transforme les matières pour créer des pièces uniques : vêtements stylés, sacs élégants, nappes raffinées et mandalas vibrants.",
+    bio: [
+      "Genevoise d'origine, Adriana tisse son histoire à travers le crochet depuis son plus jeune âge. Avec une infinie délicatesse, elle transforme les matières pour créer des pièces uniques : vêtements stylés, sacs élégants, nappes raffinées et mandalas vibrants.",
+    ],
+    email: '',
+    works: [
+      { src: '/images/adriana1.jpg', title: '' },
+      { src: '/images/adriana3.PNG', title: '' },
+      { src: '/images/adriana4.jpg', title: '' },
+    ],
+    exhibitions: ['Expo Édition 2026'],
+  },
+  {
     id: 'anita-kironde',
     name: 'Anita Kironde',
-    medium: "Collage Naturelle",
+    medium: 'Collage Naturelle',
     discipline: 'Collage',
     portrait: '/images/artist-1.JPG',
     preview:
-      "Anita observe le monde lors de ses balades et récolte les plantes qui composeront ses collages végétaux, séchées avec soin puis assemblées en maisons esquissées au crayon.",
-    bio: ["Anita observe le monde lors de ses balades et récolte les plantes qui composeront ses collages végétaux, séchées avec soin puis assemblées en maisons esquissées au crayon."],
+      'Anita observe le monde lors de ses balades et récolte les plantes qui composeront ses collages végétaux, séchées avec soin puis assemblées en maisons esquissées au crayon.',
+    bio: [
+      'Anita observe le monde lors de ses balades et récolte les plantes qui composeront ses collages végétaux, séchées avec soin puis assemblées en maisons esquissées au crayon.',
+    ],
     email: '',
     instagram: '#',
     works: [
@@ -91,7 +110,9 @@ export const artists: Artist[] = [
     portrait: '/images/artist-2.jpg',
     preview:
       "Evelyne traduit la ferveur de ses voyages en Inde à travers des peintures à l'huile et aquarelles, réalisées d'après ses propres photographies.",
-    bio: ["Evelyne traduit la ferveur de ses voyages en Inde à travers des peintures à l'huile et aquarelles, réalisées d'après ses propres photographies."],
+    bio: [
+      "Evelyne traduit la ferveur de ses voyages en Inde à travers des peintures à l'huile et aquarelles, réalisées d'après ses propres photographies.",
+    ],
     email: '',
     works: [
       { src: '/images/evelyne1.jpg', title: '' },
@@ -110,29 +131,32 @@ export const artists: Artist[] = [
     portrait: '/images/artist-3.jpg',
     preview:
       "Artiste autodidacte, elle explore l'abstraction à la peinture acrylique, guidant ses toiles par l'expérimentation instinctive des couleurs et des matières.",
-    bio: ["Artiste autodidacte, elle explore l'abstraction à la peinture acrylique, guidant ses toiles par l'expérimentation instinctive des couleurs et des matières."],
+    bio: [
+      "Artiste autodidacte, elle explore l'abstraction à la peinture acrylique, guidant ses toiles par l'expérimentation instinctive des couleurs et des matières.",
+    ],
     email: '',
     instagram: '#',
     works: [
       { src: '/images/Fabienne1.jpg', title: '' },
       { src: '/images/Fabienne2.jpg', title: '' },
-      { src: '/images/Fabienne3.jpg', title: "" },
-      { src: '/images/Fabienne4.jpg', title: "" },
-      { src: '/images/Fabienne5.png', title: "" },
+      { src: '/images/Fabienne3.jpg', title: '' },
+      { src: '/images/Fabienne4.jpg', title: '' },
+      { src: '/images/Fabienne5.png', title: '' },
     ],
   },
   {
     id: 'hélène-kowalski',
     name: 'Hélène Kowalski',
-    medium: "Vitraille",
+    medium: 'Vitraille',
     discipline: 'Vitraille',
     portrait: '/images/artist-4.jpg',
     preview:
       "Passionnée d'Art déco, elle façonne le verre en jouant avec ses textures, ses jeux d'ombre et de lumière, et ses infinies déclinaisons de transparences colorées.",
-    bio: ["Passionnée d'Art déco, elle façonne le verre en jouant avec ses textures, ses jeux d'ombre et de lumière, et ses infinies déclinaisons de transparences colorées."],
+    bio: [
+      "Passionnée d'Art déco, elle façonne le verre en jouant avec ses textures, ses jeux d'ombre et de lumière, et ses infinies déclinaisons de transparences colorées.",
+    ],
     email: '',
-    works: [
-        ],
+    works: [],
   },
   {
     id: 'isaline-segabrugo',
@@ -141,13 +165,13 @@ export const artists: Artist[] = [
     discipline: 'Tissage',
     portrait: '/images/artist-5.jpg',
     preview:
-      "Isaline tisse le coton et le lin sur son métier pour créer des objets usuels au design abstrait, guidée par une démarche méditative et colorée",
-    bio: ["Isaline tisse le coton et le lin sur son métier pour créer des objets usuels au design abstrait, guidée par une démarche méditative et colorée"],
-    email: '' ,
-    instagram: '#',
-    works: [
-      { src: '/images/Isaline1.png', title: '' },
+      'Isaline tisse le coton et le lin sur son métier pour créer des objets usuels au design abstrait, guidée par une démarche méditative et colorée',
+    bio: [
+      'Isaline tisse le coton et le lin sur son métier pour créer des objets usuels au design abstrait, guidée par une démarche méditative et colorée',
     ],
+    email: '',
+    instagram: '#',
+    works: [{ src: '/images/Isaline1.png', title: '' }],
   },
   {
     id: 'maya-west',
@@ -157,7 +181,9 @@ export const artists: Artist[] = [
     portrait: '/images/artist-6.jpg',
     preview:
       "Maya manie l'aquarelle entre portraits aux couleurs vibrantes d'inspiration fauviste et paysages fidèles aux nuances de la nature.",
-    bio: ["Maya manie l'aquarelle entre portraits aux couleurs vibrantes d'inspiration fauviste et paysages fidèles aux nuances de la nature."],
+    bio: [
+      "Maya manie l'aquarelle entre portraits aux couleurs vibrantes d'inspiration fauviste et paysages fidèles aux nuances de la nature.",
+    ],
     email: '',
     works: [
       { src: '/images/maya1.jpg', title: '' },
@@ -177,8 +203,10 @@ export const artists: Artist[] = [
     discipline: 'Peinture',
     portrait: '/images/artist-7a.jpg',
     preview:
-      "De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création.",
-    bio: ["De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création."],
+      'De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création.',
+    bio: [
+      'De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création.',
+    ],
     email: '',
     works: [
       { src: '/images/miky1.jpg', title: '' },
@@ -192,12 +220,12 @@ export const artists: Artist[] = [
     discipline: 'Sculpture',
     portrait: '/images/artist-8.jpg',
     preview:
-      "Nathalie Masset façonne le métal par soudure et rivetage pour créer des sculptures inspirées de la mythologie et des arts primitifs, enrichies de matériaux de récupération.",
-    bio: ["Nathalie Masset façonne le métal par soudure et rivetage pour créer des sculptures inspirées de la mythologie et des arts primitifs, enrichies de matériaux de récupération."],
-    email: '',
-    works: [
-      { src: '/images/nathalie1.jpg', title: '' },
+      'Nathalie Masset façonne le métal par soudure et rivetage pour créer des sculptures inspirées de la mythologie et des arts primitifs, enrichies de matériaux de récupération.',
+    bio: [
+      'Nathalie Masset façonne le métal par soudure et rivetage pour créer des sculptures inspirées de la mythologie et des arts primitifs, enrichies de matériaux de récupération.',
     ],
+    email: '',
+    works: [{ src: '/images/nathalie1.jpg', title: '' }],
   },
   {
     id: 'sylvain-leber',
@@ -207,40 +235,28 @@ export const artists: Artist[] = [
     portrait: '/images/artist-9.jpg',
     preview:
       "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
-    bio: ["Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs."],
+    bio: [
+      "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
+    ],
     email: '',
     works: [],
   },
-    {
+  {
     id: 'tina-höhn-jolivet',
     name: 'Tina Höhn Jolivet',
-    medium: 'Création de lampes',
+    medium: 'Créatrice de lampes',
     discipline: 'Création',
     portrait: '/images/artist-10.jpg',
     preview:
       "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
-    bio: ["Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs."],
+    bio: [
+      "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
+    ],
     email: '',
     works: [
       { src: '/images/tina1.jpg', title: '' },
       { src: '/images/tina2.jpg', title: '' },
       { src: '/images/tina3.jpg', title: '' },
-    ],
-    exhibitions: ['Expo Édition 2026'],
-  },
-    {
-    id: 'adriana-hermann',
-    name: 'Adriana Hermann',
-    medium: 'Création de sac',
-    discipline: 'Création',
-    portrait: '/images/adriana2.jpg',
-    preview:"Genevoise d'origine, Adriana tisse son histoire à travers le crochet depuis son plus jeune âge. Avec une infinie délicatesse, elle transforme les matières pour créer des pièces uniques : vêtements stylés, sacs élégants, nappes raffinées et mandalas vibrants.",
-    bio: ["Genevoise d'origine, Adriana tisse son histoire à travers le crochet depuis son plus jeune âge. Avec une infinie délicatesse, elle transforme les matières pour créer des pièces uniques : vêtements stylés, sacs élégants, nappes raffinées et mandalas vibrants."],
-    email: '',
-    works: [
-      { src: '/images/adriana1.jpg', title: '' },
-      { src: '/images/adriana3.PNG', title: '' },
-      { src: '/images/adriana4.jpg', title: '' },
     ],
     exhibitions: ['Expo Édition 2026'],
   },

@@ -28,7 +28,7 @@ const montserrat = Montserrat({
 // "description" = le petit texte qui apparaît sous le lien dans les résultats Google
 // À MODIFIER ICI si tu veux changer ces deux éléments.
 export const metadata: Metadata = {
-  title: "ADAH — Association des Artistes d'Hermance",
+  title: "Adah — Association des Artistes d'Hermance",
   description:
     "Le collectif des Artistes d'Hermance réunit peintres, sculpteurs, céramistes et photographes de la région lémanique. Découvrez nos artistes et nos expositions.",
   generator: 'v0.app',

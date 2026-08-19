@@ -33,7 +33,7 @@ export function AboutSection() {
             {/* Les 3 paragraphes de présentation de l'association */}
             <div className="mt-8 space-y-6 text-lg leading-relaxed text-muted-foreground">
               <p>
-                L'association à pour vocation de soutenir les artistes d'Hermmance et de ses alentours, 
+                L'association à pour vocation de soutenir les artistes d'Hermance et de ses alentours, 
                 en leur offrant l'opportunité de se faire connaître et de vendre leurs oeuvres à travers 
                 des expositions organisées dans différents lieux de la région.
               </p>

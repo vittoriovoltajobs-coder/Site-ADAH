@@ -222,9 +222,6 @@ function ArtistModal({
                     alt={work.title}
                     className="aspect-square w-full object-cover"
                   />
-                  <figcaption className="bg-secondary/40 px-3 py-2 text-center text-xs text-muted-foreground">
-                    {work.title}
-                  </figcaption>
                 </figure>
               ))}
             </div>
