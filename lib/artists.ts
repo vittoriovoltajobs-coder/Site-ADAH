@@ -197,23 +197,6 @@ export const artists: Artist[] = [
     ],
   },
   {
-    id: 'miky-barbey',
-    name: 'Miky Barbey',
-    medium: 'Peintre',
-    discipline: 'Peinture',
-    portrait: '/images/artist-7a.jpg',
-    preview:
-      'De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création.',
-    bio: [
-      'De retour à la peinture après une longue pause, elle ravive sa pratique artistique à travers des toiles spontanées, guidée par le plaisir du partage et de la création.',
-    ],
-    email: '',
-    works: [
-      { src: '/images/miky1.jpg', title: '' },
-      { src: '/images/miky2.jpg', title: '' },
-    ],
-  },
-  {
     id: 'nathalie-masset',
     name: 'Nathalie Masset',
     medium: 'Sculptrice',
