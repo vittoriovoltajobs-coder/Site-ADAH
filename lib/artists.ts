@@ -3,28 +3,17 @@
 // C'est ICI que tu ajoutes, modifies ou supprimes un artiste.
 // Chaque artiste est un bloc { ... } dans le tableau "artists"
 // plus bas. Pour chaque artiste :
-//   - name       → nom affiché
-//   - medium     → sa spécialité (affichée sous forme de petite étiquette)
-//   - discipline → doit être exactement l'une de : Peinture, Sculpture,
-//                  Céramique, Photographie (sert au filtre)
-//   - portrait   → chemin de sa photo de profil (dans public/images/)
-//   - preview    → court texte affiché sur la fiche (avant d'ouvrir le profil)
-//   - bio        → texte(s) affiché(s) dans la fenêtre "profil détaillé"
-//                  (un texte par ligne entre guillemets, séparés par une virgule)
-//   - email      → email affiché et utilisé pour le lien "mailto"
-//   - works      → les photos d'œuvres montrées dans la galerie du profil
-//
-// POUR AJOUTER UN NOUVEL ARTISTE : copie un bloc { ... } existant
-// en entier (des accolades { à }), colle-le juste avant ou après,
-// et change les informations à l'intérieur. N'oublie pas la virgule
-// entre deux artistes.
-//
-// POUR SUPPRIMER UN ARTISTE : supprime tout son bloc { ... } (avec
-// la virgule qui le sépare des autres).
+//   - name        → nom affiché
+//   - medium      → sa spécialité (affichée sous forme de petite étiquette)
+//   - discipline  → doit être l'une des disciplines définies ci-dessous
+//   - portrait    → chemin de sa photo de profil (dans public/images/)
+//   - preview     → court texte affiché sur la fiche (avant d'ouvrir le profil)
+//   - bio         → texte(s) affiché(s) dans la fenêtre "profil détaillé"
+//   - email       → email affiché et utilisé pour le lien "mailto"
+//   - works       → les photos d'œuvres montrées dans la galerie du profil
 // ============================================================
 
 export type Discipline =
-
   | 'Collage'
   | 'Création'
   | 'Crochet'
@@ -145,7 +134,7 @@ export const artists: Artist[] = [
     ],
   },
   {
-    id: 'hélène-kowalski',
+    id: 'helene-kowalski',
     name: 'Hélène Kowalski',
     medium: 'Vitraille',
     discipline: 'Vitraille',
@@ -217,15 +206,15 @@ export const artists: Artist[] = [
     discipline: 'Peinture',
     portrait: '/images/artist-9.jpg',
     preview:
-      "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
+      "Artiste autodidacte, il façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
     bio: [
-      "Artiste autodidacte, elle façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
+      "Artiste autodidacte, il façonne des compositions abstraites à l'acrylique en se laissant guider par l'instinct et l'expérimentation des couleurs.",
     ],
     email: '',
     works: [],
   },
   {
-    id: 'tina-höhn-jolivet',
+    id: 'tina-hohn-jolivet',
     name: 'Tina Höhn Jolivet',
     medium: 'Créatrice de lampes',
     discipline: 'Création',
@@ -242,5 +231,23 @@ export const artists: Artist[] = [
       { src: '/images/tina3.jpg', title: '' },
     ],
     exhibitions: ['Expo Édition 2026'],
+  },
+  {
+    id: 'diana-hayek-barriviera',
+    name: 'Diana Hayek Barriviera',
+    medium: 'Peintre',
+    discipline: 'Peinture',
+    portrait: '/images/diana1.jpg',
+    preview:
+      'Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.',
+    bio: [
+      'Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.',
+    ],
+    email: '',
+    instagram: '#',
+    works: [
+      { src: '/images/diana2.jpg', title: '' },
+      { src: '/images/diana3.jpg', title: '' },
+    ],
   },
 ]
