@@ -92,6 +92,24 @@ export const artists: Artist[] = [
     ],
   },
   {
+    id: 'diana-hayek-barriviera',
+    name: 'Diana Hayek Barriviera',
+    medium: 'Peintre',
+    discipline: 'Peinture',
+    portrait: '/images/diana1.jpg',
+    preview:
+      'Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.',
+    bio: [
+      'Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.',
+    ],
+    email: '',
+    instagram: '#',
+    works: [
+      { src: '/images/diana2.jpg', title: '' },
+      { src: '/images/diana3.jpg', title: '' },
+    ],
+  },
+  {
     id: 'evelyne-camoglu',
     name: 'Evelyne Camoglu',
     medium: 'Peintre',
@@ -231,23 +249,5 @@ export const artists: Artist[] = [
       { src: '/images/tina3.jpg', title: '' },
     ],
     exhibitions: ['Expo Édition 2026'],
-  },
-  {
-    id: 'diana-hayek-barriviera',
-    name: 'Diana Hayek Barriviera',
-    medium: 'Peintre',
-    discipline: 'Peinture',
-    portrait: '/images/diana1.jpg',
-    preview:
-      'Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.',
-    bio: [
-      'Artiste passionnée par les couleurs, Diana s’initie à plusieurs techniques et supports. Elle affectionne en particulier l’aquarelle et toutes les encres. Elle s’inspire de ce qui l’entoure, des photos qu’elle prend durant ses voyages et des paysages qui la touchent.',
-    ],
-    email: '',
-    instagram: '#',
-    works: [
-      { src: '/images/diana2.jpg', title: '' },
-      { src: '/images/diana3.jpg', title: '' },
-    ],
   },
 ]
